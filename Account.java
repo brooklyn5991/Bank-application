@@ -24,17 +24,9 @@ public class Account {
     }
 
     @PostConstruct
-    public void setBalance() {
+    public void init() {
         this.balance = 5000;
-    }
-
-    @PostConstruct
-    public void setAccountNumber() {
         this.accountNumber = "2635477132";
-    }
-
-    @PostConstruct
-    public void setName() {
         this.name = "Oke";
     }
 
